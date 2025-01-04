@@ -9,11 +9,11 @@ The strategy uses five different EMAs (9, 15, 35, 65, and 200 periods) and an RS
 
 ### Buy Condition
 - The short-term EMA (9-period) is above the 15-period EMA, which is above the 65-period EMA, which is above the 200-period EMA.
-- The 35-period EMA is greater than 60.
+- The RSI is greater than 60.
 
 ### Sell Condition
 - The short-term EMA (9-period) is below the 15-period EMA, which is below the 65-period EMA, which is below the 200-period EMA.
-- The 35-period EMA is less than 40.
+- The RSI is less than 40.
 
 ### Exit Conditions
 - If a buy condition is met, but the EMAs cross in a bearish manner or the RSI falls below 40, the position is liquidated.
